@@ -7,14 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-/* .navbar-2 {
-    position: fixed;
-    top: 7%;
-    z-index: 1;
-    width: 100%;
-   
-} */
-
 a {
     color: #0d6efd;
     text-decoration: none;
@@ -177,25 +169,6 @@ h5 {
     text-align: center !;
 }
 
-/* .button>.btn {
-    width: 112%;
-    border-radius: 18px;
-    font-size: 12px;
-    font-weight: 800;
-}
-    .btn {
-      background-color: #245AA5;
-      color: white;
-      cursor: pointer;
-      border-radius: 8px;
-      border-radius: 0 0 0 #5878a5;
-      text-align: center;
-    
-    
-
-
-    } */
-
 img {
     width: 100%;
 }
@@ -209,10 +182,6 @@ h3 {
     text-align: center;
     color: #254AA5;
     margin: 20px;
-
-
-
-
 }
 
 .dont-miss-out>h5 {
@@ -290,10 +259,6 @@ h6 {
     color: #fff;
 }
 
-/* .card-text-1 {
-    flex: 1 1 auto;
-    padding: 24rem 0.1rem;
-}  */
 h6 {
     color: black;
     font-size: 1.rem;
@@ -649,24 +614,6 @@ h6 {
         display: none;
     }
 }
-
-/* @media screen and (max-width: 768px){
- .notification-bar {
-    bottom: 0;
-    position: fixed;
-    display: flex;
-    background: aliceblue;
-    right: 0;
-
-    
-       
-
-}
-    } */
-
-/* body {
-        font-family: cursive;
-       }*/
 a {
     text-decoration: none;
 }
@@ -679,8 +626,6 @@ li {
 
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    /* padding: 0px 10%; */
     background-color: #fff;
     color: #245AA5;
     height: 55px;
@@ -711,7 +656,6 @@ li {
 .nav-links {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 /* NAVBAR MENU */
@@ -729,13 +673,10 @@ li {
     color: #245AA5;
     font-weight: 700;
     padding-right: 10px;
-
-
 }
 
 
 .menu li:hover {
-    /* background-color: #4c9e9e; */
     border-radius: 5px;
     transition: 0.3s ease;
 }
@@ -750,18 +691,6 @@ input[type=checkbox] {
     font-size: 24px;
     user-select: none;
 }
-
-/* .btn-1{
-          font-size: 15px;
-          border-radius: 20%;
-          padding-top: 20px;
-
-      } */
-
-
-
-
-
 
 .butn-1 {
     width: 10% !important;
@@ -878,7 +807,6 @@ input[type=checkbox] {
         bottom: 0;
         width: 100%;
         height: 55px;
-        /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); */
         background-color: #ffffff;
         display: flex;
         overflow-x: auto;
@@ -903,9 +831,7 @@ input[type=checkbox] {
         -webkit-tap-highlight-color: transparent;
         transition: background-color 0.1s ease-in-out;
         border: 2px solid #fff;
-
     }
-
     .nav__link:hover {
         background-color: #254AA5;
         color: #fff;
@@ -918,11 +844,3 @@ input[type=checkbox] {
     .parallax {
         display: block !important;
     }
-
-
-
-
-    /* .hamburger{
-          padding-left: 100%;
-       } */
-}
