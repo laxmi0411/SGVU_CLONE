@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <title>apply-now</title>
+
+  <style>   
+   .custom-container{
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+:root{
+  --bg-image:#245AA5;
+  --text-color:#fff; 
+}
+.apply-now {
+      padding-top: 10px;
+      background-color: #f1f1f1;
+      height: 400px;
+    }
+    input[type='text']:focus,
+    input[type='password']:focus{
+      background-color: #fff;
+      outline: none;
+    } 
+    .form-select {
+      background-color: #f2f2f2;
+    }
+    img {
+      width: 55%;
+    }
+    .navbar-brand {
+      width: 20%;
+      margin-left: 7%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      margin-right: 0px;
+    }
+    .navbar-item {
+    font-family: Roboto,sans-serif!important;
+    
+   
+}
+.navbar-item{
+  font-size: 12px;
+}
+.button>.btn {
+    width: 112%;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: 800;
+}
+    .btn {
+      background-color: var(--bg-image);
+      color: white;
+      cursor: pointer;
+      border-radius: 8px;
+      border-radius: 0 0 0 #5878a5;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background-color: var(--bg-image);
+      color: #fff;
+
+    }
+
+    .form-box {
+      width: 88%;
+      margin-left: 25px;
+      padding-top: 20%;
+      box-shadow: 0 0 13px 5px #949494;
+      padding: 40px;
+      border-radius: 5px;
+      margin-top: -130px;
+      /* background-color: #ffffff; */
+    }
+
+    a {
+      text-decoration: none;
+
+    }
+
+
+
+    .footer-navigation {
+      height: 50%;
+      color: #000;
+      margin-top: 100px;
+      padding-bottom: 25px;
+    }
+
+
+    .footer-nav ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-evenly;
+      font-size: 15px;
+    font-weight: 700;
+    }
+    .main-footer {
+      height: 50%;
+      display: flex;
+      padding-top: 10px;
+
+    }
+
+    .footer-logo {
+      width: 25%;
+
+
+    }
+/* 
+    ul {
+      display: flex;
+      list-style: none;
+    } */
+
+    .footer-copyright {
+      padding-left: 30px;
+    }
+    .notification {
+      float: right;
+      position: fixed;
+      right: 0px;
+      top: 20%;
+
+    }
+
+    .flot-bar {
+      width: 35px;
+      height: 35px;
+      border: 2px solid #245AA5;
+      border-radius: 50%;
+      text-align: center;
+      background-color: var(--bg-image);
+      color: #fff;
+      margin: auto;
+      padding-top: 5px;
+    }
+
+    h5 {
+      font-size: 12px;
+      text-align: center;
+      padding-top: 10px;
+      color: #000;
+    }
+    h2{
+      color: #254aa5;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    p{
+      font-size: 1.1vw;
+    font-weight: 700;
+    color: #444;
+
+    }
+   
+
+    .flot-bar:hover {
+      background-color: #fff;
+      color: #254aa5;
+      ;
+    }
+    .navbar-nav .first_nav{
+      font-size: 15px;
+     font-weight: 700;
+    }
+
+    @media screen and (max-width: 800px) and (min-width: 300px){
+      h2 {
+    color: #254aa5;
+    font-size: 30px;
+    font-weight: 700;
+}
+} 
+    /* p {
+    font-size: 4.1vw;
+    font-weight: 700;
+    color: #444;
+} */
+.top-nav{
+  background-color: var(--bg-image);
+}
+.application-form{
+  line-height: 10vh;
+}
+.col{
+  transition: transform 0.5s;
+}
+.footer-link{
+  background-color: var(--bg-image);
+  color: var(--text-color);
+ 
+}
+.col {
+     transform: scale(1.1);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar top-nav navbar-expand-lg d-xs-none d-sm-block">
+    <div class="custom-container text-decorection-none">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+       
+        <ul class="navbar-nav "style="justify-content: space-evenly;">
+          <li class="nav-item first_nav">
+            <a class="nav-link active" href="#">
+              <i class='fa fa-phone' style='color: white'>+91 9413 345 444 / +91 979 904 7000</i>
+            </a>
+          </li>
+          <li class="nav-item mx-4  first_nav">
+            <a class="nav-link" href="#">
+              <i class="fa fa-envelope" style='color: white'> admissions@mygyanvihar.com</i>
+            </a>
+          </li>
+
+          <li class="nav-item first_nav">
+            <a class="nav-link " href="#" style='color: white'>
+              Consultancy Services
+            </a>
+          </li>
+          <li class="nav-item first_nav">
+            <a class="nav-link  " href="#" style='color: white'>
+              program
+            </a>
+          </li>
+          <li class="nav-item first_nav">
+            <a class="nav-link  " href="#" style='color:white' >
+              Alumni
+            </a>
+          </li>
+          <li class="nav-item first_nav">
+            <a class="nav-link " href="#" style='color: white'>
+              Result
+            </a>
+          </li>
+          <li class="nav-item first_nav">
+            <a class="nav-link " href="#" style='color: white'>
+              LMS Login
+            </a>
+          </li>
+          <li class="nav-item first_nav">
+            <a class="nav-link " href="#" style='color: white'>
+              student Login
+            </a>
+          </li>
+
+        </ul>
+       
+      </div>
+    </div>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./sgvulogo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav " >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"style="color: #245AA5;"><b>New</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  " href="#"style="color: #245AA5;"><b>Event</b></a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link " href="#"style="color: #245AA5;"><b>Acamdmics</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  " href="#"style="color: #245AA5;"><b>Research</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  "style="color: #245AA5;"><b>Placement</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link"style="color: #245AA5;"><b>Campus-life</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link"style="color: #245AA5;"><b>Admissions</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link "style="color: #245AA5;"><b>About Us</b></a>
+          </li>
+          <div class="button mx-5">
+          <!-- <button class="button1"> apply Now</button> -->
+          <input class="btn mx-2" type="submit" value="apply-now"></button>
+      </div>
+      </ul>
+
+    </div>
+    </div>
+  </nav>
+
+  <div class="apply-now">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 mx-auto">
+          <div class="application-form pt-4 text-center">
+            <h3>APPLICATIONFORM 2021</h3>
+            <h1 class="fw-1"style="color:#444;">Three Step towards a great carrer</h1>
+            <div class="btn">IF ALREADY REGISTERED></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <style>
+    .progress-bars {
+      width: 150%;
+      display: flex;
+    padding:  0px 10%;
+    }
+
+    
+    .progress-items{
+      position: relative;
+      z-index: 10;
+      width: 25%;
+      
+    }
+    
+    .progress-items:first-child{
+      width: auto;
+    }
+
+    .progress-items::after {
+    position: absolute;
+    content: "";
+    /* border-left: 2px solid #245AA5; */
+    width: 100%;
+    height: 3px;
+    background: #888888;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+.progress-items.active::after{
+  background: #254aa5;
+
+}
+.progress-items.success::after{
+  background: #3d950d;
+
+}
+.progress-items:first-child::after{
+content: '';
+width: 0px;
+height: 0px;
+}
+.progress-icon {
+      width: 45px;
+      height: 45px;
+      background-color: #888888;
+      border: 2px solid #ebebeb;
+      border-radius: 50%;
+      margin-left: auto;
+      text-align: center;
+      padding-top: 10px;
+      color: #fff;
+
+    }
+    .progress-items.success > .progress-icon{
+      background-color: #3d950d;
+    }
+    .progress-items.active > .progress-icon{
+      background-color: #254aa5;
+    }
+
+  </style>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 mx-auto">
+        <div class="form-box">
+
+          <form>
+
+            <div class="form-progresss pb-4">
+              <div class="progress-bars">
+                <div class="progress-items active">
+                  <div class="progress-icon ">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div>
+                
+                <div class="progress-items">
+                  <div class="progress-icon ">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div>
+                <div class="progress-items ">
+                  <div class="progress-icon ">
+                    <i class="fa fa-user"></i>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            
+
+              <hr>
+                 
+              <label for="disabledTextInput" class="form-label text-muted ">Your Details</label>
+              <div class="mb-3 ">
+                <!-- <label for="disabledTextInput" class="form-label">Disabled input</label> -->
+                <input type="text" class="form-control" placeholder="First name*">
+
+              </div>
+              <div class="mb-3">
+                <!-- <label for="disabledTextInput" class="form-label">Disabled input</label> -->
+                <input type="text" class="form-control" placeholder="Middle name">
+              </div>
+              <div class="mb-3">
+                <!-- <label for="disabledTextInput" class="form-label">Disabled input</label> -->
+                <input type="text" class="form-control" placeholder="Last-Name*">
+              </div>
+
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="dob" class="form-label">Date Of Birth</label>
+                  <input type="date" class="form-control" id="date">
+                  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+                </div>
+              </div>
+
+              <label for="disabledTextInput" class="form-label text-muted">Nationality</label><br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <label class="form-check-label" for="inlineRadio1">Indian Student
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">International Student</label>
+              </div>
+
+
+
+              <div class="mb-3">
+                <input type="text" class="form-select" placeholder="India" disabled>
+              </div>
+
+
+              <div class="mb-3">
+                <select name="" class="form-select">
+                  <option>Select state</option>
+                  <option value="1">Delhi</option>
+                  <option value="2 ">Mumbai</option>
+                  <option value="3">Rajsthan</option>
+                  <option value="4" selected>Bihar</option>
+                  <option value="5">Goa</option>
+                </select>
+
+              </div>
+
+              <div class="mb-3">
+                <input type="text" class="form-select" placeholder="select city">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-select" placeholder="E-mail ID*">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-select" placeholder="Mobile-Number*">
+              </div>
+
+              <label for="disabledTextInput" class="form-label text-muted">What would you like to study at Gyan Vihar
+              </label><br>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <label class="form-check-label" for="inlineRadio1">PhD</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">(PG)</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">(UG)</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Degree</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Diploma</label>
+              </div><br><br>
+
+
+
+              <div class="mb-3">
+                <select name="" class="form-select text-muted" placeholder="select Programm">
+                  <option>Select program</option>
+                  <option value="1">2</option>
+                  <option value="2">2</option>
+                  <option value="3">2</option>
+                  <option value="4">2</option>
+                  <option value="5">2</option>
+                </select>
+                <div class="form-text" style="font-size: 16px;">you can choose specialisation of your choice at a later
+                  step.</div>
+              </div>
+
+
+
+              <div class="mb-3">
+                <label for="disabledTextInput" class="form-label text-muted">How did you know about SGVU?</label>
+
+                <select name="" class="form-select" placeholder="select Sourced">
+                  <option>Select sourced</option>
+                  <option value="1">2</option>
+                  <option value="2">2</option>
+                  <option value="3">2</option>
+                  <option value="4">2</option>
+                  <option value="5">2</option>
+                </select>
+              </div>
+
+
+
+
+              <button type="submit" class="btn">Submit></button><br><br>
+          
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer-navigation ">
+    <div class="container">
+      <div class="row d-flex">
+  <div class="col"><a herf="#" class="footer-link">Addmission process</a></div>
+  <div class="col"><a herf="#" class="footer-link">Programs & Fee</a></div>
+  <div class="col"><a herf="#" class="footer-link">date to remember</a></div>
+  <div class="col"><a herf="#" class="footer-link">SGVUEE 2021</a></div>
+  <div class="col"><a herf="#" class="footer-link">Exam Centers</a></div>
+
+      </div>
+      <!-- <div class="footer-nav">
+        <ul>
+          <li><a herf="#" class="footer-link">Addmission process</a> </li>
+          <li><a herf="#" class="footer-link">Programs & Fee</a> </li>
+          <li><a herf="#" class="footer-link">date to remember</a> </li>
+          <li><a herf="#" class="footer-link">SGVUEE 2021</a> </li>
+          <li><a herf="#" class="footer-link">Exam Centers</a> </li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+
+
+  <section class="footer-sgvu" style="background-color: #245AA5;">
+    <div class="container">
+      <div class="main-footer ">
+        <div class="footer-logo  ">
+          <img src="./footerlogo.png">
+        </div>
+        <div class="col-md-9">
+          <div class="footer-text ">
+            <ul>
+              <li><a href="#" class="footer-links">Gyan vihar home</a></li> &nbsp &nbsp
+              <li><a href="#" class="footer-links">Maps & Directions</a></li>
+            </ul>
+          </div>
+          <div class="footer-text ">
+            <ul>
+              <li><a href="#" class="footer-links">Terms of Use</a></li> &nbsp &nbsp
+              <li><a href="#" class="footer-links">Privacy</a></li>
+              <li><a href="#" class="footer-links">Copyright</a></li> &nbsp &nbsp
+              <li><a href="#" class="footer-links">Trademarks</a></li>
+            </ul>
+          </div>
+          <div class="footer-copyright text-light">©Copyright Gyan Vihar University. All Rights Reserved </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- notificatin-Bar -->
+  <div class="notification">
+    <a href="#">
+      <div class="flot-bar">
+        <i class="fa fa-user"></i>
+      </div>
+      <h5>Apply<br>Now</h5>
+      <div class="flot-bar">
+        <i class="fas fa-id-badge"> </i>
+      </div>
+      <h5>Enquary</h5>
+      <div class="flot-bar">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <h5>Whatsapp</h5>
+      <div class="flot-bar">
+        <i class="fas fa-phone-alt"></i>
+      </div>
+      <h5>call us</h5>
+    </a>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
